@@ -1,0 +1,23 @@
+TPS 1:
+1. I expected it to print 2 because we set all of the values in the array to 2.
+2. I would expect it to print 2 again.
+3. printf("four_ints[0] at the end: %x\n", four_ints[0]);
+4. It prints 2. I was surprised because it doesn't seem to be consistent.
+5. 
+a) One array is static. 
+b) One array is a pointer pointing to the same memory as four_ints.
+c) In code.
+6. four_ints will be 4 bytes because each element is an int and the memory for an int is usually 4 bytes.
+7. On paper.
+8. The difference will be 1 byte because each char takes 1 byte of memory.
+9. On paper.
+10. C handles different data types by considering their size when incrementing memory addresses.
+
+TPS 2:
+1. This line dynamically allocates memory for a 2D array using malloc.
+2. *(arr + i)
+3. *(*(arr + i) + j)
+4. There is no way in C to determine the size of a dynamically allocated array.
+5. In code.
+6. In code.
+7. printArray(arr, n);
