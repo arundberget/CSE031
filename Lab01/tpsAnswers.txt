@@ -1,0 +1,28 @@
+TPS 1
+
+1. Aaron, Lance, Brennan
+2. https://www.geeksforgeeks.org/basic-linux-commands/# 
+https://www.columbusstate.edu/turner/_docs/cyber-range/linux-commands.pdf
+https://ubuntu.com/tutorials/command-line-for-beginners
+
+TPS 2
+
+1. I have the terminal shortcut pinned to my dash of my linux vm.
+    a. Yes you can open more than one terminal.
+    b. It improves efficiency and lets you organize each terminal with certain tasks.
+2. ls 
+3. cd Desktop
+4. mkdir CSE031
+
+TPS 3
+
+1. https://gcc.gnu.org/onlinedocs/
+man gcc
+https://www.geeksforgeeks.org/gcc-command-in-linux-with-examples/
+3. gcc main.c -o main
+4. It won't show a compilation error after running the gcc command.
+5. It lets you input files.
+6. Gives debug information.
+7. gcc main.c -o cselab1
+8. It will create a default executable file named a.out.
+9. ./a.out if default executable10. 

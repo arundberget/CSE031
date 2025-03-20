@@ -1,0 +1,43 @@
+include <stdbool.h>
+
+int input
+int num =1
+bool isEven
+int sum = 0
+
+printf "Enter the %dst value: ", num
+scanf "%d", &input
+
+if input == 0:
+    print "There is no average to compute."
+    return 0
+
+while input != 0:
+    num++
+
+    if num % 10 == 1 && num != 11:
+        printf "Enter the %dst value: ", num
+    else if num % 10 == 2 && num != 12:
+        printf "Enter the %dnd value: ", num
+    else if num % 10 == 3 && num != 13:
+        printf "Enter the %drd value: ", num
+    else:
+        printf "Enter the %dth value: ", num
+    
+    scanf "%d", &input
+    sum += input
+
+if sum % 2 == 0:
+    isEven = true;
+
+int avg = sum / num
+
+if isEven:
+    print "Average of inputs whos digits sum up to an even number: %d", avg
+else:
+    print "Average of inputs whos digits sum up to an odd number: %d", avg
+
+return 0
+
+
+-This pseudocode isn't exactly correct, but this was what was thought of during our discussion. The actual c file contains the correct code that was implemented individually.
