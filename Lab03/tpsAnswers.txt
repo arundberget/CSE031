@@ -1,0 +1,14 @@
+TPS 1:
+1. The 3 pools for memory are stack, heap, and static. Stack holds local variables. Heap holds dynamic memory allocation functions like malloc and calloc. Static holds global variables, static variables, and constants.
+2. In file.
+a) There are three variables declared.
+b) Two of them are pointers. ptr points to num. handle points to the pointer ptr.
+c) These are stored in the heap because they use dynamic memory allocation.
+d) This would point to the heap.
+3. Drawing is external.
+4. My drawing is external.
+
+TPS 2:
+1. This program defines a struct node which is a node in a linked list. Each of the nodes has the variables decleared at the beginning. head is the first node in the linked list.
+2. Code is in the file.
+3. The head holds the value of the first node.
