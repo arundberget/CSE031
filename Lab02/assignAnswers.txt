@@ -1,0 +1,10 @@
+Assignment 1:
+1. It doesn't look like it's telling me a line in the file. It kept refering to vfscanf-internal.c and isoc99_scanf.c.
+2. I made sum into a pointer in read_values.
+3. there should be a & on the input variable.
+4. You replace input with &input in the scanf function.
+
+Assignment 2:
+1. It didn't add spaces and there is the phrase llo! at the end which shouldn't be there.
+2. It added hellhi! to the end. 
+3. I think it breaks because it can only handle 10 characters unless you expand it to like 100.

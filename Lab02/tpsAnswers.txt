@@ -1,0 +1,31 @@
+TPS Activity 1:
+1.
+2. https://www.geeksforgeeks.org/gdb-command-in-linux-with-examples/
+https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+https://man7.org/linux/man-pages/man1/gdb.1.html
+
+TPS Activity 2:
+1. You have to start GDB by typing gdb. 
+Then you have to compile it by typing gcc "c file"
+Since it's asking for a punish executable it would be gcc punishment.c -o punish
+2. You would run gdb ./punish
+3. You would run the code by typing r
+4. Breakpoints are places where the program will intentionally stop. You could set a breakpoint by typing b {line}.
+5. To run the next line you would type n
+6. You could get the value of a variable with the command p
+7. You would type continue to continue the execution
+8. You can type q to exit the application
+
+TPS Activity 3:
+1. Four variables were declared in the first line of main(). Two of them are pointers, px and py.
+2. All of the values are 0. I think it happens because there have not been any values assigned to them. I think they get 0 assigned by default if not initialized.
+3. You would have to initialize the variables.
+4. Memory address of x: 0x7ffcc81024f8
+Memory address of y: 0x7ffcc81024fc
+Memory address of arr[0]: 0x7ffcc8102500
+5. Value of px: 1
+Value of py: 1
+Memory address of px: 0x7ffd17412df8
+Memory address of py: 0x7ffd17412dfc
+7. This is true.
+8. It's the same address as the original array.
