@@ -1,0 +1,23 @@
+TPS 1:
+1. MIPS Assembler and Runtime Simulator
+2. Done
+3. Done
+4. Done
+5.
+a) You go to file and open the file.
+b) You press the assemble logo.
+c) You press the run button.
+d) No.
+e) You press the line by line button.
+f) You would press the run button again.
+6. Done
+
+TPS 2:
+1. .data indicates the start of a data segment. .word allocates a word of memory and initializes it. .text indicates the start of a text segment.
+2. This line loads the word stored in memory address stored in register $t3 into register $t3.
+3. This line copies the value from register $t2 into register $t1.
+4. You press the checkbox in the text segment box for the line you want to set a breakpoint for.
+5. You would press the run button to continue.
+6. You would look in the data segment. You can change the value of a register by double clicking it then typing in a new value and press enter.
+7. 0X10010000, 233
+8. print integer and exit
